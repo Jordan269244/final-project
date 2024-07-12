@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\jorda\\RiderProjects\\final-project\\s24-final-project-Jordan269244\\ds2-problem\\ds2-problem.csproj": {}
+    "c:\\Users\\jorda\\RiderProjects\\final-project\\Queue\\ds1-solution.csproj": {}
   },
   "projects": {
-    "c:\\Users\\jorda\\RiderProjects\\final-project\\s24-final-project-Jordan269244\\ds2-problem\\ds2-problem.csproj": {
+    "c:\\Users\\jorda\\RiderProjects\\final-project\\Queue\\ds1-solution.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\jorda\\RiderProjects\\final-project\\s24-final-project-Jordan269244\\ds2-problem\\ds2-problem.csproj",
-        "projectName": "ds2-problem",
-        "projectPath": "c:\\Users\\jorda\\RiderProjects\\final-project\\s24-final-project-Jordan269244\\ds2-problem\\ds2-problem.csproj",
+        "projectUniqueName": "c:\\Users\\jorda\\RiderProjects\\final-project\\Queue\\ds1-solution.csproj",
+        "projectName": "ds1-solution",
+        "projectPath": "c:\\Users\\jorda\\RiderProjects\\final-project\\Queue\\ds1-solution.csproj",
         "packagesPath": "C:\\Users\\jorda\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\jorda\\RiderProjects\\final-project\\s24-final-project-Jordan269244\\ds2-problem\\obj\\",
+        "outputPath": "c:\\Users\\jorda\\RiderProjects\\final-project\\Queue\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jorda\\AppData\\Roaming\\NuGet\\NuGet.Config"

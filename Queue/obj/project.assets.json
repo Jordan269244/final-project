@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\jorda\\RiderProjects\\final-project\\s24-final-project-Jordan269244\\ds2-example\\ds2-example.csproj",
-      "projectName": "ds2-example",
-      "projectPath": "c:\\Users\\jorda\\RiderProjects\\final-project\\s24-final-project-Jordan269244\\ds2-example\\ds2-example.csproj",
+      "projectUniqueName": "c:\\Users\\jorda\\RiderProjects\\final-project\\Queue\\ds1-solution.csproj",
+      "projectName": "ds1-solution",
+      "projectPath": "c:\\Users\\jorda\\RiderProjects\\final-project\\Queue\\ds1-solution.csproj",
       "packagesPath": "C:\\Users\\jorda\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\jorda\\RiderProjects\\final-project\\s24-final-project-Jordan269244\\ds2-example\\obj\\",
+      "outputPath": "c:\\Users\\jorda\\RiderProjects\\final-project\\Queue\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jorda\\AppData\\Roaming\\NuGet\\NuGet.Config"

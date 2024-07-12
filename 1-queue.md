@@ -9,7 +9,7 @@ Queue is the most basic process by which data can flow. It follows the principle
 
 ## Basic Opperations
 
-Queue as 3 basic opperations. Enqueue, Dequeue, and Peek. 
+Queue as 3 basic opperations. `Enqueue`, `Dequeue`, and `Peek`. 
 
 
 ### Enqueue
@@ -120,7 +120,7 @@ Number of elements in the Queue: 4
 
 ## Efficency
 
-Big "O" notation is often used as a notation that describes the behavior of a function. It ma.kes a way to compare the efficiency of different algorithims.
+Big "O" notation is often used as a notation that describes the behavior of a function. It makes a way to compare the efficiency of different algorithims.
 
 Queue has a Big "O" notation of O(1). This means that no matter how big the input, it will always take a constant amount of time to run. So if we have a queue with several hundered number and another queue with only 10 numbers. Every number will take the same amount of time even if one queue is longer than the other.
 

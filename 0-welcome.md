@@ -4,9 +4,9 @@ Welcome to C# Fundamentals Tutorial. Here are ome basics every C# programmer sho
 
 -[Queue](1-queue.md)
 
--[Linked Lists](2.linkedlists.md)
+-[Linked Lists](2-linkedlists.md)
 
--[Functions](3-Tree.md)
+-[Functions](3-tree.md)
 
 ## Contact
 
