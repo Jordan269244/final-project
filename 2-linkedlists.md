@@ -103,7 +103,7 @@ public void DeleteNode(int Key)
 }
 
 ```
-To summarize what happens in this code:
+What Happens in this Code?
 1) The code checks if the head node contains the key that is being deleted
 2) If no, it looks through the list, keeps track of the current node (`temp`) and the prvious node (`prev`)
 3) If it find the node with the key, it updates the previous node's `Next` address to skip the node with the key
@@ -215,11 +215,11 @@ In the example below, we will write a simple code that will create a playlist ma
 
 Some things to remember:
 
--Each node needs to include the title, artist and the `Next` to the next song in the playlist
--Playlist should have operations such as:
-    -Add Song
-    -Remove Song
-    -Display Playlist
+- Each node needs to include the title, artist and the `Next` to the next song in the playlist
+- Playlist should have operations such as:
+    - Add Song
+    - Remove Song
+    - Display Playlist
 
 ```csharp
 // Node class for the song
@@ -343,7 +343,7 @@ Notice the several different classes are used. This is a great way to keep your 
 
 You are tasked with implementing a webapge management system for a browser's history using a double linked list. Each webpage visited is represented by a node in the doubly linked list.
 
-##### Task
+#### Task
 
 1) Each node should contain the following fields
     - Url

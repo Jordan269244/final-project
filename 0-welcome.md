@@ -6,7 +6,7 @@ Welcome to C# Fundamentals Tutorial. Here are ome basics every C# programmer sho
 
 -[Linked Lists](2-linkedlists.md)
 
--[Functions](3-tree.md)
+-[Trees](3-tree.md)
 
 ## Contact
 

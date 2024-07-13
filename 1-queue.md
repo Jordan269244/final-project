@@ -40,7 +40,7 @@ class example
 }
 ```
 ##### Output
-Total number of elements in Queue are: 1
+Total number of elements in Queue are: 1\
 Total number of elements in Queue are: 2
 
 
@@ -75,8 +75,8 @@ class example {
 ```
 
 ##### Output
-Number of elements in the Queue: 4
-Top element of queue is: 3
+Number of elements in the Queue: 4\
+Top element of queue is: 3\
 Number of elements in the Queue: 3
 
 
@@ -112,8 +112,8 @@ class example {
 ```
 
 ##### Output
-Number of elements in the Queue: 4
-Top element of queue is: 3
+Number of elements in the Queue: 4\
+Top element of queue is: 3\
 Number of elements in the Queue: 4
 
 
@@ -198,10 +198,11 @@ Call 2 finished processing in 2 seconds.
 
 Remeber you will need to use the `Random` class in order to generate the time to processes each call.
 
-
+\
+\
+\
+\
 You can check your code with the solution here: [Solution](Queue)
-
-
 
 
 [Back to Welcome Page](0-welcome.md)
