@@ -3,9 +3,9 @@
 Queue is the most basic process by which data can flow. It follows the principle of "First in, First Out" (FIFO) which is often used in our everday lives. While it is hard to visualize with specific program examples, you can often find examples of queue in real life.
 
 - In fast food, whatever food is put in the freezer first is the first to be taken out.
-- Cashiers will ehlp the person that enters their lane first, scan all their items, and then move on to the next person.
+- Cashiers will help the person that enters their lane first, scan all their items, and then move on to the next person.
 - A printer will always print the project that was sent first before moving on to the next project
-- Web servers often use queue to manage certain request from clents. Their input is added to a queue and processes based on the order they were received.
+- Web servers often use queue to manage certain request from clients. Their input is added to a queue and processes based on the order they were received.
 
 ## Basic Opperations
 
@@ -126,7 +126,7 @@ Number of elements in the Queue: 4
 
 Big "O" notation is often used as a notation that describes the behavior of a function. It makes a way to compare the efficiency of different algorithims.
 
-Queue has a Big "O" notation of O(1). This means that no matter how big the input, it will always take a constant amount of time to run. So if we have a queue with several hundered number and another queue with only 10 numbers. Every number will take the same amount of time even if one queue is longer than the other.
+Queue has a Big "O" notation of O(1). This means that no matter how big the input, it will always take a constant amount of time to run. So if we have a queue with several hundered numbers and another queue with only 10 numbers. Every number will take the same amount of time even if one queue is longer than the other.
 
 
 ![Big O Notation Graph](O(1).png)

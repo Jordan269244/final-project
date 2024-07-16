@@ -29,7 +29,7 @@ affecting the rest of the tree.
 - **Edge:** Also called a branch, this connects two nodes together. A node can have more than one edge
 - **Parent:** A Parent is a node that is higher in the "hierarchy" of the tree. It has branches to other nodes
 - **Child:** A node that is connected below another node. All nodes, excepts the root node, are child nodes.
-- **Root:** The first node in the tree is called the root of the tree
+- **Root:** The first node in the tree is called the Root of the tree
 - **Leaf node:** Nodes with no child, also called external nodes
 - **Internal node (Non-Leaf Node):** Nodes with at least one child
 - **Siblings:** Nodes that have the same parent
@@ -84,7 +84,7 @@ static void LeafNodes(int Root, List<List<int>> adj)
         Console.WriteLine();
     }
 ```
-This code goes through all the nodes in the tree, checks to see if they have only 1 connection (to the parent) and ensure that it isn't root (sometimes root may only have one child connection). This is how it will identify all the Leaf Nodes in the Code which in this example would be 4,6,7,8,9.
+This code goes through all the nodes in the tree, checks to see if they have only 1 connection (to the parent) and ensure that it isn't the root (sometimes the root may only have one child connection). This is how it will identify all the Leaf Nodes in the Code which in this example would be 4,6,7,8,9.
 
 
 

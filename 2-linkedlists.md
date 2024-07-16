@@ -1,11 +1,11 @@
 # Linked Lists
 
-Linked lists is a data structure that is used to organize and store a collection of elements called nodes. These nodes are not stored in one specific place but are linked together. A linked list is a series of connect nodes where each node stores its own data, and the address of the next node so it can pass information along.
+Linked lists is a data structure that is used to organize and store a collection of elements called nodes. These nodes are not stored in one specific place but are linked together. A linked list is a series of connect nodes where each node stores its own data 4 and the address of the next node so it can pass information along.
 
 Some common real life examples of Linked Lists include:
 
 - A web browser's previous and next web page URLS are linked to each other through the buttons
-- In your phone, you contacts' details will be placed in alphabetical order due to a linked list being set to contact in the correct position.
+- In your phone, your contacts' details will be placed in alphabetical order due to a linked list being set to contact in the correct position.
 - The redo and undo buttons in a document page are double linked lists. You can uses the undo button or Ctrl+Z to modify your document.
 
 
@@ -24,7 +24,7 @@ Every data structure has its own advantages. Some advantages of Linked lists are
 
 No data strucutre is perfect and all have their own disadvantages as well.
 
-- Linked lists require additional memory because of the connection between each node
+- Linked lists require additional memory because of the connection between each nodes
 - Linked lists can't access random elements. In order to reach a specific node, you need to traverse the entire list from the start to finish.
 
 
@@ -105,7 +105,7 @@ public void DeleteNode(int Key)
 ```
 What Happens in this Code?
 1) The code checks if the head node contains the key that is being deleted
-2) If no, it looks through the list, keeps track of the current node (`temp`) and the prvious node (`prev`)
+2) If no, it looks through the list, keeps track of the current node (`temp`) and the previous node (`prev`)
 3) If it find the node with the key, it updates the previous node's `Next` address to skip the node with the key
 4) If the node with the key is not found, the method exits without changing anything
 
@@ -205,7 +205,7 @@ In this list, the last Node points to the Head node creating a loop.
 
 ## Efficency
 
-Queue has a Big "O" notation fo O(n). What this means is that the time it takes grows linearly with the size of the input. So the bigger the input size, the longer it will take for the code to proccess the information.
+Queue has a Big "O" notation of O(n). What this means is that the time it takes grows linearly with the size of the input. So the bigger the data size, the longer it will take for the code to proccess the information.
 
 ![Big O Notation Graph](O(n).png)
 
