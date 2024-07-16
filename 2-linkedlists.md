@@ -36,7 +36,7 @@ No data strucutre is perfect and all have their own disadvantages as well.
 - **Head and Tail:** The head node points to the first not in the list, the last node in the list points to the Tail which is the `NULL` node. 
 
 
- *** DIAGRAM ***
+ ![Linked Lists Picture](LinkedList.png)
 
 
 ## Basic Operations
@@ -186,7 +186,7 @@ There are three primary types of Linked Lists: Singly, Doubly, and Circular.
 
 This is a straight line where one node leads to the next.
 
-**** DIAGRAM ****
+![Linked List](LinkedList1.png)
 
 
 
@@ -194,20 +194,20 @@ This is a straight line where one node leads to the next.
 
 In this type of list, each node has a reference to the previous, and next node. This allows the information to go forward and backward. 
 
-**** DIAGRAM ****
+![Doubly Linked List](DoubleLinked.png)
 
 
 ### Circular Linked List
 
 In this list, the last Node points to the Head node creating a loop.
 
-**** DIAGRAM ****
+![Circular Linked List](CircleList.png)
 
 ## Efficency
 
 Queue has a Big "O" notation fo O(n). What this means is that the time it takes grows linearly with the size of the input. So the bigger the input size, the longer it will take for the code to proccess the information.
 
-**** Graph ****
+![Big O Notation Graph](O(n).png)
 
 ## Example: Music Player Playlist
 

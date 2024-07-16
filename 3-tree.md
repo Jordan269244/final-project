@@ -99,7 +99,7 @@ This code goes through all the nodes in the tree, checks to see if they have onl
 
 
 
-****DIAGRAM****
+![Tree Types](Trees.png)
 
 
 
@@ -109,7 +109,7 @@ This code goes through all the nodes in the tree, checks to see if they have onl
 The Big O notation of the tree strucutre is O(log n). O(log n) means that the larger the input, but more consistant the time becomes. If you look at the graph below, you will notice that O(log n) starts to flatten off. This means that even if the input size gets bigger, the time it takes to do do the algorithm will remain the same making it a very efficient process.
 
 
-******GRAPH*********
+![Big O Notation Graph](O(logn).png)
 
 ## Example Problem: Simple Tree
 

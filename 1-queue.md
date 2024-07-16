@@ -16,7 +16,7 @@ Queue as 3 basic opperations. `Enqueue`, `Dequeue`, and `Peek`.
 
 Enqueue is to add something to the end of the queue.
 
-***Small picture/diagram***
+![Enqueue Picture](Enqueue.png)
 
 In code, enqueue looks likes this:
 
@@ -48,6 +48,10 @@ Total number of elements in Queue are: 2
 ### Dequeue
 
 Dequeue returns the value of the top of the queue and removes that value from the queue. 
+
+![Dequeue Picture](Dequeue.png)
+
+In code, dequeue looks like this:
 
 ```csharp
 class example {
@@ -125,7 +129,7 @@ Big "O" notation is often used as a notation that describes the behavior of a fu
 Queue has a Big "O" notation of O(1). This means that no matter how big the input, it will always take a constant amount of time to run. So if we have a queue with several hundered number and another queue with only 10 numbers. Every number will take the same amount of time even if one queue is longer than the other.
 
 
-*** Diagram or picture ****
+![Big O Notation Graph](O(1).png)
 
 
 ## Example : Bank Service Line
