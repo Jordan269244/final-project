@@ -1,6 +1,6 @@
 # Queue
 
-Queue is the most basic process by which data can flow. It follows the principle of "First in, First Out" (FIFO) which is often used in our everday lives. While it is hard to visualize with specific program examples, you can often find examples of queue in real life.
+Queue is the most basic process by which data can flow. It follows the principle of "First in, First Out" (FIFO) which is often used in our everday lives. While it is hard to visualize with specific program examples, you can often find examples of `queue` in real life.
 
 - In fast food, whatever food is put in the freezer first is the first to be taken out.
 - Cashiers will help the person that enters their lane first, scan all their items, and then move on to the next person.
@@ -138,9 +138,9 @@ In the example below, we will write a simple queue code that will simulate a cus
 
 Some things to remember:
 
--After all the customers have been served, the code needs to stop
--After each customer is served, they should no longer be in queue.
--Display a message that says all the customers have been served.
+- After all the customers have been served, the code needs to stop
+- After each customer is served, they should no longer be in queue.
+- Display a message that says all the customers have been served.
 
 
 ```csharp
@@ -194,11 +194,12 @@ A call center receives customer calls and processes them in the order they arriv
 
 
 An example of what the output would like like is this:
-
+```csharp
 Call 1 is being processed...
 Call 1 finished processing in 3 seconds.
 Call 2 is being processed...
 Call 2 finished processing in 2 seconds.
+```
 
 Remeber you will need to use the `Random` class in order to generate the time to processes each call.
 

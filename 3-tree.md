@@ -34,14 +34,14 @@ affecting the rest of the tree.
 - **Internal node (Non-Leaf Node):** Nodes with at least one child
 - **Siblings:** Nodes that have the same parent
 - **Cousins:** Nodes that belong on the same level of the tree, with different parents
-- **Degree:** The number of children of that node
+- **Degree:** The number of children of a node
 - **Path:** To reach a specific node, there is a unique sequence of edges to get there. The number of edges in a path is call the length of the path
-- **Level of a node:** The number of edges in the path between the root and the node
+- **Level of a node:** The number of edges in the path between the root and a node
 - **Subtree:** A tree formed by a node and its descendants while in the original tree
 
 ## Basic Operations
 
-There are 4 basic operations of Tree Data Structures: `Create`, `Insert`, and `Search`
+There are 3 basic operations of Tree Data Structures: `Create`, `Insert`, and `Search`
 - **Create:** Creates a tree in the data structure
 - **Insert:** Inserts data in the tree
 - **Search:** Searches a specific data in the tree to check if it exists or not
@@ -106,7 +106,7 @@ This code goes through all the nodes in the tree, checks to see if they have onl
 
 ## Efficency
 
-The Big O notation of the tree strucutre is O(log n). O(log n) means that the larger the input, but more consistant the time becomes. If you look at the graph below, you will notice that O(log n) starts to flatten off. This means that even if the input size gets bigger, the time it takes to do do the algorithm will remain the same making it a very efficient process.
+The Big O notation of the tree strucutre is O(log n). O(log n) means that the larger the input, but more consistant the time becomes. If you look at the graph below, you will notice that O(log n) line starts to flatten off. This means that even if the input size gets bigger, the time it takes to do do the algorithm will remain the same making it a very efficient process.
 
 
 ![Big O Notation Graph](O(logn).png)
@@ -148,7 +148,15 @@ Notice the use of Linked Lists in the Tree structure. A path to get from one nod
 #### **SOLUTION**
 This is what the tree looks like:
 
-***PICTURE****
+```
+        1
+      / | \
+     2  3  4
+   / |      \
+  5  6       7        
+
+
+```
 
 
 *Parent Nodes:* 1(root), 2, 4\
@@ -161,11 +169,18 @@ This is what the tree looks like:
 
 For this problem, look at the image below. Using that tree, create a code that correctly identifies all the `Parent Nodes`, `Child Nodes`, `Leaf Nodes`, and the `Degree` of the tree.
 
-
-*****IMAGE******
-
+```
+               1
+             / | \
+            2  3  4
+          / |  |  |
+         5  6  7  8
+            |     | \
+            9    10  11
+```
 
 Here is the code to create the tree to help get started:
+
 ```csharp
 
 adj[1].AddRange(new int[] { 2, 3, 4 });

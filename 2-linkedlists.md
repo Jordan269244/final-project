@@ -1,6 +1,6 @@
 # Linked Lists
 
-Linked lists is a data structure that is used to organize and store a collection of elements called nodes. These nodes are not stored in one specific place but are linked together. A linked list is a series of connect nodes where each node stores its own data 4 and the address of the next node so it can pass information along.
+Linked lists is a data structure that is used to organize and store a collection of elements called nodes. These nodes are not stored in one specific place but are linked together. A linked list is a series of connect nodes where each node stores its own data and the address of the next node so it can pass information along.
 
 Some common real life examples of Linked Lists include:
 
@@ -22,7 +22,7 @@ Every data structure has its own advantages. Some advantages of Linked lists are
 
 #### <ins>Disadvantages
 
-No data strucutre is perfect and all have their own disadvantages as well.
+No data structure is perfect and all have their own disadvantages as well.
 
 - Linked lists require additional memory because of the connection between each nodes
 - Linked lists can't access random elements. In order to reach a specific node, you need to traverse the entire list from the start to finish.
